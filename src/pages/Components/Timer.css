@@ -1,0 +1,53 @@
+.timer-container {
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    background-color: lightgray;
+    margin-bottom: 0.5rem;
+    
+}
+
+.timer-title {
+    color: darkblue;
+    margin-bottom: 0.5rem;
+}
+
+.timer-display {
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    text-align: right;
+    font-size: x-large;
+    padding: 0.25rem 0.5rem;
+    font-weight: bold;
+    width: 14rem;
+    margin-bottom: 0.5rem;
+}
+
+.timer-buttons {
+    display: flex;
+    gap: 0.5rem;
+    justify-content: space-between;
+}
+
+/* ปุ่มสำหรับ Timer */
+.btn-danger {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+.btn-success {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+.btn-danger:hover, .btn-success:hover {
+    opacity: 0.8;
+}

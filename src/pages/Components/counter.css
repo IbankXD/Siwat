@@ -1,0 +1,52 @@
+.counter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    background-color: lightgray;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.counter h3 {
+    color: darkblue;
+    font-size: x-large;
+    margin-bottom: 15px;
+}
+
+.counter-controls {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.counter-controls span {
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+}
+
+/* ปุ่มลดจำนวน */
+.btn-danger {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* ปุ่มเพิ่มจำนวน */
+.btn-success {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-danger:hover, .btn-success:hover {
+    opacity: 0.8;
+}
